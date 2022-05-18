@@ -12,9 +12,9 @@ namespace fs = std::experimental::filesystem;
 int main() {
 	// hide the window
 	HWND hwnd = GetConsoleWindow();
-	ShowWindow(hwnd, SW_SHOW);
+	ShowWindow(hwnd, SW_HIDE);
 
-	//initialize();
+	initialize();
 
 	int err;
 	WSAData wsData{};
